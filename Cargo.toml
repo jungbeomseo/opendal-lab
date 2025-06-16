@@ -1,0 +1,8 @@
+[package]
+name = "opendal-lab"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+opendal = { version = "0.53.3", features = ["services-fs", "services-s3", "services-postgresql"] }
+tokio = { version = "1", features = ["full"] }
